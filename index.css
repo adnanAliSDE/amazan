@@ -3,7 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+h3{
+  display: block;
+  line-height: 1.5rem;
+}
 body {
   background-color: #eee;
 }
@@ -29,12 +32,20 @@ header .searchbar {
   position: sticky;
   top: 0px;
 }
+.hero-wrapper {
+  width: 100%;
+  background-color: #fff;
+}
 .hero {
+  width: 80%;
+  margin: auto;
   background-color: #fff;
   padding: 10px;
 }
-.hero img{
-    margin: auto;
+.hero img {
+  display: block;
+  margin: auto;
+  width: 100%;
 }
 .btn-primary {
   background-color: orange;
@@ -48,18 +59,24 @@ main > h2 {
   line-height: 1.5;
 }
 .products {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin: 0px 20px;
 }
 .product {
-    max-width: 400px;
+  max-width: 400px;
   padding: 20px;
   background-color: #fff;
   border-radius: 12px;
   margin-bottom: 20px;
 }
-.product *,.hero * {
+.product *,
+.hero * {
   margin: 8px 0px;
+}
+
+a {
+  display: block;
+  color: #fff;
 }
